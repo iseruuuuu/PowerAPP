@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9430E27525A973A600E9EE5E /* iii.png in Resources */ = {isa = PBXBuildFile; fileRef = 9430E27425A973A600E9EE5E /* iii.png */; };
 		949748C925A6D6F7006BBA00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949748C825A6D6F7006BBA00 /* AppDelegate.swift */; };
 		949748CB25A6D6F7006BBA00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949748CA25A6D6F7006BBA00 /* SceneDelegate.swift */; };
 		949748CD25A6D6F7006BBA00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949748CC25A6D6F7006BBA00 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9430E27425A973A600E9EE5E /* iii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iii.png; sourceTree = "<group>"; };
 		949748C525A6D6F7006BBA00 /* PowerAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		949748C825A6D6F7006BBA00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		949748CA25A6D6F7006BBA00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				949748C825A6D6F7006BBA00 /* AppDelegate.swift */,
 				949748CA25A6D6F7006BBA00 /* SceneDelegate.swift */,
 				949748CC25A6D6F7006BBA00 /* ViewController.swift */,
+				9430E27425A973A600E9EE5E /* iii.png */,
 				949748CE25A6D6F7006BBA00 /* Main.storyboard */,
 				949748D125A6D6F8006BBA00 /* Assets.xcassets */,
 				949748D325A6D6F8006BBA00 /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				949748D525A6D6F8006BBA00 /* LaunchScreen.storyboard in Resources */,
+				9430E27525A973A600E9EE5E /* iii.png in Resources */,
 				949748D225A6D6F8006BBA00 /* Assets.xcassets in Resources */,
 				949748D025A6D6F7006BBA00 /* Main.storyboard in Resources */,
 			);
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D453TST7T9;
 				INFOPLIST_FILE = PowerAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Iseryuiseki.PowerAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D453TST7T9;
 				INFOPLIST_FILE = PowerAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Iseryuiseki.PowerAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
